@@ -11,7 +11,7 @@ html {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #BCCCF7;
+    background: #24272B;
     color: #88A2EB;
 }
 
@@ -52,7 +52,7 @@ header {
 .hero {
     min-height: 75vh;
     padding: 120px 12%;
-    background: #e9e4dd;
+    background: #BCC5F7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +61,7 @@ header {
 
 .small-heading,
 .section-label {
-    color: #a16f5b;
+    color: #F7E5BC
     font-size: 11px;
     letter-spacing: 4px;
     margin-bottom: 25px;
