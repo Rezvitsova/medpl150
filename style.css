@@ -381,16 +381,13 @@ header {
 /* PROJECT GALLERY */
 
 .gallery-grid {
-
     width: 100%;
-    max-width: 1200px;
+    max-width: 1400px;
 
     margin: 0 auto 90px;
 
     display: grid;
-
-    grid-template-columns:
-        repeat(auto-fit, minmax(min(100%, 350px), 450px));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 
     justify-content: center;
     align-items: center;
@@ -398,17 +395,15 @@ header {
     gap: 30px;
 }
 
-
 /* GALLERY IMAGES */
 
 .gallery-grid img {
-
     display: block;
 
     width: 100%;
     height: auto;
 
-    max-height: 550px;
+    max-width: none;
 
     object-fit: contain;
 
@@ -416,11 +411,6 @@ header {
 
     transition: opacity 0.4s ease;
 }
-
-.gallery-grid img:hover {
-    opacity: 0.85;
-}
-
 
 /* PROJECT DESCRIPTION */
 
