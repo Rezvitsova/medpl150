@@ -1,3 +1,6 @@
+
+/* GENERAL SETTINGS */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +21,7 @@ body {
 
 header {
     padding: 22px 8%;
-    background: #F9FCC5;
+    background: #E0EDFF;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -37,21 +40,30 @@ header {
     letter-spacing: 3px;
     text-decoration: none;
     color: #1A1C21;
+    transition: 0.3s;
 }
 
 .nav-link {
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 2px;
+    color: #1A1C21;
+    transition: 0.3s;
+}
+
+/* ALL HOVER EFFECTS */
+
+.logo:hover,
+.nav-link:hover {
     color: #EDFCC5;
 }
 
 /* HERO SECTION */
 
 .hero {
-      min-height: 75vh;
+    min-height: 75vh;
     padding: 60px 8%;
-    background: #C5DEFC;
+    background: #86AFEB;
 
     display: flex;
     flex-direction: row;
@@ -68,7 +80,7 @@ header {
 }
 
 .small-heading {
-    color: #1A1C21;
+    color: #F9FCC5;
     font-size: 11px;
     letter-spacing: 4px;
     margin-bottom: 25px;
@@ -79,7 +91,7 @@ header {
     font-weight: 500;
     line-height: 0.95;
     margin-bottom: 30px;
-    color: #F5FFE0;
+    color: #1A1C21;
 }
 
 .hero-description {
@@ -103,13 +115,18 @@ header {
     object-position: center;
     display: block;
     border-radius: 8px;
+    transition: 0.4s;
+}
+
+.hero-image img:hover {
+    opacity: 0.85;
 }
 
 /* PORTFOLIO SECTION */
 
 .portfolio {
     padding: 100px 8%;
-    background: #F9FCC5;
+    background: #E0EDFF;
 }
 
 .portfolio-heading {
@@ -117,7 +134,7 @@ header {
 }
 
 .section-label {
-    color: #F5FFE0;
+    color: #F9FCC5;
     font-size: 11px;
     letter-spacing: 4px;
     margin-bottom: 25px;
@@ -148,12 +165,13 @@ header {
     height: 300px;
     object-fit: cover;
     display: block;
-    background: #86B7FC;
+    background: #E0EDFF;
     transition: 0.4s;
 }
 
 .project-card:hover img {
     transform: scale(0.98);
+    opacity: 0.85;
 }
 
 .card-info {
@@ -162,20 +180,27 @@ header {
 
 .card-info span {
     font-size: 10px;
-    color: #000000;
+    color: #1A1C21;
     letter-spacing: 2px;
+    transition: 0.3s;
 }
 
 .card-info h3 {
     font-size: 21px;
     font-weight: 500;
     margin: 8px 0;
-    color: #000000;
+    color: #1A1C21;
+    transition: 0.3s;
 }
 
 .card-info p {
-    color: #000000;
+    color: #1A1C21;
     font-size: 12px;
+}
+
+.project-card:hover h3,
+.project-card:hover span {
+    color: #EDFCC5;
 }
 
 /* FOOTER */
@@ -183,8 +208,8 @@ header {
 footer {
     padding: 30px;
     text-align: center;
-    background: #86B7FC;
-    color: #000000;
+    background: #E0EDFF;
+    color: #1A1C21;
     font-size: 11px;
     letter-spacing: 2px;
 }
@@ -249,5 +274,4 @@ footer {
         height: 260px;
     }
 }
-
 
