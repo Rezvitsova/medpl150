@@ -43,7 +43,7 @@ header {
     text-decoration: none;
     font-size: 12px;
     letter-spacing: 2px;
-    color: #1A1C21;
+    color: #EDFCC5;
 }
 
 /* HERO SECTION */
@@ -79,7 +79,7 @@ header {
     font-weight: 500;
     line-height: 0.95;
     margin-bottom: 30px;
-    color: #1A1C21;
+    color: #F5FFE0;
 }
 
 .hero-description {
@@ -117,7 +117,7 @@ header {
 }
 
 .section-label {
-    color: #1A1C21;
+    color: #F5FFE0;
     font-size: 11px;
     letter-spacing: 4px;
     margin-bottom: 25px;
